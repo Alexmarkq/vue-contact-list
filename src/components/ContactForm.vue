@@ -59,7 +59,7 @@
             </v-col>
 
             <v-col
-              v-else-if="localContact.phoneNumber.length > 1"
+              v-else-if="localContact.email.length > 1"
               cols="auto"
             >
               <v-btn 

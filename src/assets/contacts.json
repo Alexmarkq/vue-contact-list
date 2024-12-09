@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "phoneNumber": ["666111999"],
+    "email": ["ana.arriate@klikin.com"],
+    "firstname": "Ana",
+    "lastname": "Arriaga"
+  },
+  {
+    "id": 2,
+    "phoneNumber": ["913123333"],
+    "email": ["antonio.lorenzo@klikin.com"],
+    "firstname": "Antonio",
+    "lastname": "Lorenzo"
+  }
+]

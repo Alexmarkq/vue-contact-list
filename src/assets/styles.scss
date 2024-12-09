@@ -1,0 +1,67 @@
+$font-stack: "Avenir", Helvetica, Arial, sans-serif;
+$primary-text-color: rgb(255, 255, 255);
+$background-app-color: #232323;
+$klikin-light-blue:  #6488b8;
+$klikin-mid-blue:  #3484b4;
+$klikin-secondary-color: #fc8404;
+
+#app {
+    font-family: $font-stack;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin-top: 20px;
+    color: $primary-text-color;
+}
+
+.background-app {
+    background-color: $background-app-color;
+}
+
+.v-card__title {
+    background-color: $klikin-mid-blue;
+}
+
+.v-chip {
+    margin: 5px;
+    padding: 8px;
+    font-weight: 600;
+
+    &.show-hide-chip {
+        min-width: 34px;
+        cursor: pointer;
+        transition: filter 0.3s ease;
+
+        &:hover {
+            filter: brightness(1.2);
+        }
+    }
+}
+
+.show-hide-chip:hover {
+    filter: brightness(1.2); 
+}
+
+.form-col__no-padding {
+    padding: 0 12px;
+}
+
+.v-application, 
+.headline {
+    font-family: $font-stack;
+    color: $primary-text-color;
+}
+
+.firstname-field {
+    padding-top: 28px;
+}
+
+.lastname-field {
+    padding-top: 8px;
+}
+
+.mail-field {
+    padding-top: 12px;
+}
+
+
